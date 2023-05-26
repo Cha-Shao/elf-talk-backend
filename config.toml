@@ -1,0 +1,27 @@
+# elf-talk后端监听地址
+port = 8081
+
+# token密钥
+secret = "114514"
+
+[database]
+# 数据库类型
+type = "mongodb"
+# 数据库地址
+host = "127.0.0.1"
+# 数据库端口
+port = 27017
+# 数据库用户名
+user = "root"
+# 数据库密码
+password = "admin@123"
+# 数据库名
+dbname = "Elf-Talk"
+
+[server]
+# 群名
+name = "ElfTalk官方服务器"
+# 群密码，此选项非必填
+password = "114"
+# 群最多人数
+max = 1919

@@ -1,0 +1,10 @@
+root = "."
+tmp_dir = "tmp"
+build_cmd = "go build -o ./tmp/main"
+run_cmd = "./tmp/main"
+
+[build]
+delay = 1000
+
+[log]
+time_format = "2006-01-02 15:04:05"
